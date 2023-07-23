@@ -50,7 +50,7 @@ execute as @e[tag=monst1] unless entity @s[tag=health] run tag @s add health
 execute as @e[tag=boss1] unless entity @s[tag=health] run scoreboard players set @s damage 25
 execute as @e[tag=boss1] unless entity @s[tag=health] run scoreboard players set @s health 250
 execute as @e[tag=boss1] unless entity @s[tag=health] run scoreboard players set @s death 0
-execute as @e[tag=boss1] unless entity @s[tag=health] run effect give @s speed 999999 2 true
+execute as @e[tag=boss1] unless entity @s[tag=health] run effect give @s speed infinite 2 true
 execute as @e[tag=boss1] unless entity @s[tag=health] run tag @s add health
 
 #---Unknown Enitity---#

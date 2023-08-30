@@ -180,7 +180,6 @@ scoreboard players set @e maxhealth 100
 scoreboard players set @e healconst 40
 scoreboard players set @a heal 0
 scoreboard players set @a level 1
-scoreboard players set @a levelArea 1
 scoreboard players set @a exp 0
 scoreboard players set @a expneed 100
 scoreboard players set @a damage 1

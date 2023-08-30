@@ -22,6 +22,12 @@ execute as @e[tag=lvl5zomb] unless entity @s[tag=health] run scoreboard players 
 execute as @e[tag=lvl5zomb] unless entity @s[tag=health] run scoreboard players set @s death 0
 execute as @e[tag=lvl5zomb] unless entity @s[tag=health] run tag @s add health
 
+#---Level 2 Spider---#
+execute as @e[tag=lvl2spid] unless entity @s[tag=health] run scoreboard players set @s damage 3
+execute as @e[tag=lvl2spid] unless entity @s[tag=health] run scoreboard players set @s health 12
+execute as @e[tag=lvl2spid] unless entity @s[tag=health] run scoreboard players set @s death 0
+execute as @e[tag=lvl2spid] unless entity @s[tag=health] run tag @s add health
+
 #---Level 3 Spider---#
 execute as @e[tag=lvl3spid] unless entity @s[tag=health] run scoreboard players set @s damage 5
 execute as @e[tag=lvl3spid] unless entity @s[tag=health] run scoreboard players set @s health 28

@@ -1,5 +1,6 @@
 #---Action Bar Stats Giver---#
-execute as @a run title @s actionbar [{"score":{"name":"@s","objective":"health"},"color":"red"},{"text":"/"},{"score":{"name":"@s","objective":"maxhealth"}},{"text":"     "},{"score":{"name":"@s","objective":"exp"},"color":"green"},{"text":"/","color":"green"},{"score":{"name":"@s","objective":"expneed"},"color":"green"},{"text":"     "},{"score":{"name":"@s","objective":"energy"},"color":"aqua"},{"text":"/","color":"aqua"},{"score":{"name":"@s","objective":"maxenergy"},"color":"aqua"}]
+execute as @a[tag=rpg] run title @s actionbar [{"score":{"name":"@s","objective":"health"},"color":"red"},{"text":"/"},{"score":{"name":"@s","objective":"maxhealth"}},{"text":"     "},{"score":{"name":"@s","objective":"exp"},"color":"green"},{"text":"/","color":"green"},{"score":{"name":"@s","objective":"expneed"},"color":"green"},{"text":"     "},{"score":{"name":"@s","objective":"energy"},"color":"aqua"},{"text":"/","color":"aqua"},{"score":{"name":"@s","objective":"maxenergy"},"color":"aqua"}]
+execute as @a[tag=horror] run title @s actionbar {"text": ""}
 execute as @p at @p if score @s health > @s maxhealth run scoreboard players operation @s health = @s maxhealth
 
 #---On Death Enitity---#

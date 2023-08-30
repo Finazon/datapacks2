@@ -196,4 +196,5 @@ team add player "player"
 team join player @a
 team modify player collisionRule never
 tag @p remove gotcolor
+tag @p add rpg
 function map:start/color

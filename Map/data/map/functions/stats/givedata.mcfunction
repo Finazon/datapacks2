@@ -66,12 +66,12 @@ execute as @e unless entity @s[tag=health] run scoreboard players set @s damage 
 execute as @e unless entity @s[tag=health] run tag @s add health
 
 #---Names---#
-execute as @e[tag=cow] at @s run data merge entity @s {CustomName:'[{"color":"aqua","text":"["},{"color":"gold","text":"[LVL 1] "},{"color":"aqua","text":"] "},{"color":"yellow","text":"Cow"}]',CustomNameVisible:1b} 
-execute as @e[tag=lvl1zomb] at @s run data merge entity @s {CustomName:'[{"color":"aqua","text":"["},{"color":"gold","text":"[LVL 1] "},{"color":"aqua","text":"] "},{"color":"red","text":"Zombie"}]',CustomNameVisible:1b} 
-execute as @e[tag=lvl3zomb] at @s run data merge entity @s {CustomName:'[{"color":"aqua","text":"["},{"color":"gold","text":"[LVL 3] "},{"color":"aqua","text":"] "},{"color":"red","text":"Zombie"}]',CustomNameVisible:1b} 
-execute as @e[tag=lvl5zomb] at @s run data merge entity @s {CustomName:'[{"color":"aqua","text":"["},{"color":"gold","text":"[LVL 5] "},{"color":"aqua","text":"] "},{"color":"red","text":"Zombie"}]',CustomNameVisible:1b} 
-execute as @e[tag=lvl3spid] at @s run data merge entity @s {CustomName:'[{"color":"aqua","text":"["},{"color":"gold","text":"[LVL 3] "},{"color":"aqua","text":"] "},{"color":"red","text":"Spider"}]',CustomNameVisible:1b} 
-execute as @e[tag=lvl4spid] at @s run data merge entity @s {CustomName:'[{"color":"aqua","text":"["},{"color":"gold","text":"[LVL 4] "},{"color":"aqua","text":"] "},{"color":"red","text":"Spider"}]',CustomNameVisible:1b} 
-execute as @e[tag=lvl6spid] at @s run data merge entity @s {CustomName:'[{"color":"aqua","text":"["},{"color":"gold","text":"[LVL 6] "},{"color":"aqua","text":"] "},{"color":"red","text":"Spider"}]',CustomNameVisible:1b} 
+execute as @e[tag=cow] at @s run data merge entity @s {CustomName:'[{"color":"gold","text":"[LVL 1] "},{"color":"yellow","text":"Cow"}]',CustomNameVisible:1b} 
+execute as @e[tag=lvl1zomb] at @s run data merge entity @s {CustomName:'[{"color":"gold","text":"[LVL 1] "},{"color":"red","text":"Zombie"}]',CustomNameVisible:1b} 
+execute as @e[tag=lvl3zomb] at @s run data merge entity @s {CustomName:'[{"color":"gold","text":"[LVL 3] "},{"color":"red","text":"Zombie"}]',CustomNameVisible:1b} 
+execute as @e[tag=lvl5zomb] at @s run data merge entity @s {CustomName:'[{"color":"gold","text":"[LVL 5] "},{"color":"red","text":"Zombie"}]',CustomNameVisible:1b} 
+execute as @e[tag=lvl3spid] at @s run data merge entity @s {CustomName:'[{"color":"gold","text":"[LVL 3] "},{"color":"red","text":"Spider"}]',CustomNameVisible:1b} 
+execute as @e[tag=lvl4spid] at @s run data merge entity @s {CustomName:'[{"color":"gold","text":"[LVL 4] "},{"color":"red","text":"Spider"}]',CustomNameVisible:1b} 
+execute as @e[tag=lvl6spid] at @s run data merge entity @s {CustomName:'[{"color":"gold","text":"[LVL 6] "},{"color":"red","text":"Spider"}]',CustomNameVisible:1b} 
 execute as @e[tag=monst1] at @s run data merge entity @s {CustomName:'[{"color":"red","text":"???"}]',CustomNameVisible:1b} 
 execute as @e[tag=boss1] at @s run data merge entity @s {CustomName:'[{"color":"dark_red","text":"[BOSS] "},{"color":"aqua","text":"Dr. Edgar"}]',CustomNameVisible:1b} 
